@@ -1,0 +1,18 @@
+{
+  "name": "vegetable-farm",
+  "version": "1.0.0",
+  "description": "Learning full stack web development",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": " suraj prasad",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "slugify": "~1.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}

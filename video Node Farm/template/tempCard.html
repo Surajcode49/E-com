@@ -1,0 +1,26 @@
+<div class="vegetable__card">
+  <div class="vegetable__card-box vegetable__card-emoji">
+    {%IMAGE%} {%IMAGE%}
+  </div>
+  <div class="vegetable__card-box vegetable__card-title">
+    <h3>{%PRODUCTNAME%}</h3>
+  </div>
+  <div class="vegetable__card-box vegetable__card-details">
+    <div class="vegetable__card-organic {%NOT_ORGANIC%}">
+      <h6>Organic</h6>
+    </div>
+    <div>
+      <h6>{%QUANTITY%}</h6>
+    </div>
+    <div>
+      <h6>{%PRICE%}</h6>
+    </div>
+    <div>
+      <h6>{%NUTRITION%}</h6>
+    </div>
+  </div>
+
+  <a href="/product?id={%ID%}" class="vegetable__card-box btn"
+    >DTAILS <span></span>👉</a
+  >
+</div>
